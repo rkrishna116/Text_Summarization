@@ -85,7 +85,7 @@ def sentence_importance(sentence,dict_freq,sentences):
                 word = wordlemmatizer.lemmatize(word)
                 sentence_score = sentence_score + word_tfidf(dict_freq,word,sentences,sentence)
      return sentence_score
-file = "C:\\Users\\sprad\\OneDrive\\Documents\\git_\\Extractive_Text_Summarization\\0a0a4c90d59df9e36ffec4ba306b4f20f3ba4acb.story"
+file = "file"
 file = open(file , 'r')
 text = file.read()
 tokenized_sentence = sent_tokenize(text)
