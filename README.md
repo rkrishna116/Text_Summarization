@@ -6,9 +6,9 @@ When you open news sites, do you just start reading every news article? Probably
 Well, It is possible to create the summaries automatically as the news comes in from various sources around the world.
 The method of extracting these summaries from the original huge text without losing vital information is called as Text Summarization. It is essential for the summary to be a fluent, continuous and depict the significant.
 
-Types of Text Summarization
+#### Types of Text Summarization
 
-Text summarization methods can be grouped into two main categories: Extractive and Abstractive methods
+Text summarization methods can be grouped into two main categories : Extractive and Abstractive methods
 
 ### Extractive Text Summarization
 It is the traditional method developed first. The main objective is to identify the significant sentences of the text and add them to the summary. You need to note that the summary obtained contains exact sentences from the original text.
