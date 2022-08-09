@@ -85,7 +85,7 @@ def sentence_importance(sentence,dict_freq,sentences):
                 word = wordlemmatizer.lemmatize(word)
                 sentence_score = sentence_score + word_tfidf(dict_freq,word,sentences,sentence)
      return sentence_score
-file = "file.txt"
+file = "input file"
 file = open(file , 'r')
 text = file.read()
 tokenized_sentence = sent_tokenize(text)
