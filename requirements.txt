@@ -1,0 +1,6 @@
+python==3.9.12
+nltk==3.7
+os
+re==2.2.1
+math
+operator
